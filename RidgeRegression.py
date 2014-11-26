@@ -34,7 +34,7 @@ if __name__ == '__main__':
 
 	#Train with Cross Validation
 	ridgeRegression = \
-	sklearn.linear_model.RidgeCV(alphas = [0.05, 0.08,0.09, 0.1, 0.11, 0.12, 1.0])
+	sklearn.linear_model.RidgeCV(alphas = [0.05, 0.1, 0.11, 0.12, 1.0])
 
 	ridgeRegression.fit(train_features, train_targets)
 	print'Alpha= ',ridgeRegression.alpha_
