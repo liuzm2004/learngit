@@ -47,7 +47,7 @@ if __name__ == '__main__':
 	X = range(n_test_samples)
 	error = numpy.linalg.norm(predict_targets - test_targets,ord = 1)/n_test_samples
 	print 'Ridge ridgeRegression (Boston) Error: %.2f' % (error)
-
+'''
 	#Draw	
 	matplotlib.pyplot.plot(X, predict_targets, 'r--', label = 'Predict Price')
 	matplotlib.pyplot.plot(X, test_targets, 'g:', label = 'True Price')
@@ -55,3 +55,4 @@ if __name__ == '__main__':
 	matplotlib.pyplot.title('Ridge Regression (Boston)')
 	matplotlib.pyplot.ylabel('Price (1000 U.S.D)')
 	matplotlib.pyplot.show()
+'''
